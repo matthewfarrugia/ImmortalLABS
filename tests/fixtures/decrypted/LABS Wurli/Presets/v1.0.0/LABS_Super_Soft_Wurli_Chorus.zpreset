@@ -1,0 +1,22 @@
+{
+  "family": "Wurli",
+  "name": "Super Soft Wurli Chorus",
+  "tags": [
+    "501000:Piano"
+  ],
+  "plugin": "Labs",
+  "version": "1.0.0",
+  "minVersion": "1.2.12",
+  "maxVersion": "255.255.255",
+  "activeMics": [
+    1
+  ],
+  "patches": [
+    {
+      "name": "LABS_Super_Soft_Wurli_Chorus",
+      "version": "1.0.0",
+      "active": true,
+      "Odest": "REVERB"
+    }
+  ]
+}

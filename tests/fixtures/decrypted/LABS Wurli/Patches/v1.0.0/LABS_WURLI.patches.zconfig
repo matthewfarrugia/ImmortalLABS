@@ -1,0 +1,42 @@
+{
+    "plugin": "Labs",
+    "name": "Wurli",
+    "version": "1.0.0",
+    "minVersion": "1.2.12",
+    "maxVersion": "255.255.255",
+    "artics": [
+        { "articId": "Short",   "display": "SHORT",  "category": "short",   "icon": "Short"   }
+    ],
+    "controls": [
+        {
+            "controlId": "REVERB",
+            "sliderUrl": "/Typhon/DynamicArea/EffectsLayout/expressionControls/%controlId%/dial",
+            "buttonUrl": "/Typhon/expressionDialPopOver/mainPopup/%controlId%",
+            "label": "REVERB", "icon": "reverb", "info": "Reverb",
+            "paramId": "i_reverb", "scriptId": "i_reverb",
+            "odest": true,
+            "min": 0.0, "max": 1.0, "skew": 1.0, "def": 0.0, "init": 0.0, "reset": true,
+            "enabled": true
+        },
+        {
+            "controlId": "TIGHTNESS",
+            "sliderUrl": "/Typhon/DynamicArea/EffectsLayout/expressionControls/%controlId%/dial",
+            "buttonUrl": "/Typhon/expressionDialPopOver/mainPopup/%controlId%",
+            "label": "TIGHTNESS", "icon": "tightness", "info": "Tightness",
+            "paramId": "i_tight", "scriptId": "i_tight",
+            "odest": true,
+            "min": 0.0, "max": 1.0, "skew": 1.0, "def": 0.5, "init": 0.5, "reset": true,
+            "enabled": true
+        },
+        {
+            "controlId": "VARIATION",
+            "sliderUrl": "/Typhon/DynamicArea/EffectsLayout/expressionControls/%controlId%/dial",
+            "buttonUrl": "/Typhon/expressionDialPopOver/mainPopup/%controlId%",
+            "label": "VARIATION", "icon": "variation", "info": "Variation",
+            "paramId": "i_variation", "scriptId": "i_var",
+            "odest": true,
+            "min": 0.0, "max": 1.0, "skew": 1.0, "def": 0.0, "init": 0.0, "reset": true,
+            "enabled": true
+        }
+    ]
+}

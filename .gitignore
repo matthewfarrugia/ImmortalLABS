@@ -1,0 +1,6 @@
+.DS_Store
+# capture-tool build artifacts
+tools/labs_host
+tools/labs_host.dSYM/
+
+*.key
